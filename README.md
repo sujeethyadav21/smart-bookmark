@@ -12,13 +12,13 @@ Tailwind CSS: Used to make the app look modern with custom buttons and input fie
 Supabase: The "brain" of the app that handles the user's login and stores the links in a database.
 
 3. Key Technical Features
-Google Auth: You successfully set up a professional login flow that works both on your computer and the live Vercel site.
+Google Auth: I successfully set up a professional login flow that works both on your computer and the live Vercel site.
 
-Real-Time Updates: You used database "subscriptions" so the list updates instantly on the screen without needing to refresh the page.
+Real-Time Updates: I used database "subscriptions" so the list updates instantly on the screen without needing to refresh the page.
 
 4. Problems Faced (The Debugging Story)
-Syntax Hurdles: You encountered several Build Errors in the terminal due to missing or extra brackets } and parentheses ) during the styling phase.
+Syntax Hurdles: I encountered several Build Errors in the terminal due to missing or extra brackets } and parentheses ) during the styling phase.
 
-How to Solve It: You learned to carefully read the terminal's error messages to find the exact line numbers (like 181, 187, and 194) where the code was broken, which helped you fix the layout.
+How to Solve It: I learned to carefully read the terminal's error messages to find the exact line numbers where the code was broken, which helped you fix the layout.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
