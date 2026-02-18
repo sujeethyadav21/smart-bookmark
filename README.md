@@ -22,3 +22,4 @@ Syntax Hurdles: I encountered several Build Errors in the terminal due to missin
 How to Solve It: I learned to carefully read the terminal's error messages to find the exact line numbers where the code was broken, which helped you fix the layout.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+in vercel: https://smart-bookmark-xlyn.vercel.app/
