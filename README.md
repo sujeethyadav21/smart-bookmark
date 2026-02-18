@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
+1. What the App Does
+The View: This is a personal "Smart Bookmark" manager.
 
-First, run the development server:
+The Purpose: Users log in securely with Google to save their favorite websites, which stay saved in a database even if they close their browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Tech Stack
+Next.js: The framework used to build the website structure.
+
+Tailwind CSS: Used to make the app look modern with custom buttons and input fields.
+
+Supabase: The "brain" of the app that handles the user's login and stores the links in a database.
+
+3. Key Technical Features
+Google Auth: You successfully set up a professional login flow that works both on your computer and the live Vercel site.
+
+Real-Time Updates: You used database "subscriptions" so the list updates instantly on the screen without needing to refresh the page.
+
+4. Problems Faced (The Debugging Story)
+Syntax Hurdles: You encountered several Build Errors in the terminal due to missing or extra brackets } and parentheses ) during the styling phase.
+
+How to Solve It: You learned to carefully read the terminal's error messages to find the exact line numbers (like 181, 187, and 194) where the code was broken, which helped you fix the layout.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
